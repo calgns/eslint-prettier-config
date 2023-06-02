@@ -28,7 +28,7 @@ Create an `.eslintrc` file in your project root and add:
 
 ```json
 {
-	"extends": ["@calgns/eslint-config"]
+  "extends": ["@calgns/eslint-config"]
 }
 ```
 
