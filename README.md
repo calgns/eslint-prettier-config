@@ -60,9 +60,9 @@ insert_final_newline = true
 If needed you can add your own preferences.
 ```json
 {
-	"extends": ["fast-lint-prettify"],
-	"rules": {
-		// your own rules here
-	}
+  "extends": ["fast-lint-prettify"],
+  "rules": {
+    // your own rules here
+  }
 }
 ```
