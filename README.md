@@ -1,5 +1,14 @@
-# Eslint, stylelint and Prettier config files
+# Format config files
 Just to make things easy
+
+quick summary:
+- it helps you fix your code
+- better indent your code and maintainig the Good habits
+- quite simple to use
+
+all of this so it will be almost no common errors.
+
+if you don't undestand what each one of the format fils does, then, go to the end of this file and click the link of the one you didn't undestand.
 
 ## Overview :owl:
 Here will be most common config files.
