@@ -55,11 +55,11 @@ rm -fr ../format-config
 now in your dir run
 ```sh
 # if you have pnpm good
-pnpm i eslint@latest prettier@latest stylelint@latest -D
+pnpm i eslint@latest prettier@latest stylelint@latest babel/eslint-parser@latest eslint-plugin-react@latest eslint-plugin-react-hooks@latest stylelint-config-standard@latest -D
+
 
 # if don't, you should, cause it's like npm but with some goods
-npm i eslint@latest prettier@latest stylelint@latest -D
-
+npm i eslint@latest prettier@latest stylelint@latest babel/eslint-parser@latest eslint-plugin-react@latest eslint-plugin-react-hooks@latest stylelint-config-standard@latest -D
 ```
 
 
