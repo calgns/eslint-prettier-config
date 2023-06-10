@@ -1,0 +1,30 @@
+{
+  "name": "@carl/format-config",
+  "version": "0.0.1",
+  "description": "An eslint config that doesn't gives you an headache",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "npm package manager",
+    "url": "https://npm...."
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JSX",
+    "JavaScript",
+    "eslint",
+    "prettier",
+    "stylelint",
+    "editorconfig"
+  ],
+  "author": "Calgns",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.8",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
+  }
+}
