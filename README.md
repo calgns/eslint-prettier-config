@@ -24,7 +24,7 @@ Includes:
 - `stylelint`
 - `prettier`
 
-## Usage 🏖️
+## Setup 🏖️
 
 simply clone the repo and finally have fun.
 
@@ -51,7 +51,7 @@ npm i eslint@latest prettier@latest stylelint@latest -D
 ```
 
 
-## How it should look and do
+## Usage on vscode
 ### first exemple simple one in js file
 ![First gif exemple vscode js file](./assets/md-exemple.gif)
 ### second exemple more complex one in large jsx file
@@ -59,7 +59,7 @@ npm i eslint@latest prettier@latest stylelint@latest -D
 ### third exemple simple one in css file
 ![third gif exemple vscode css file](./assets/md-exemple3.gif)
 
-## commands on terminal
+## Usage on terminal
 if in your settings you have chosen to format on save and if have errolens installed you will rarely see the terminal.
 
 inside the root of the project
@@ -101,5 +101,5 @@ npx stylelint src/**/*.css
 ## Don't forget
 if you want it to work correctly then you should download each one extension in vscode and always explore the docs.
 
-#### [eslint](https://eslint.org/) [stylelint](https://stylelint.io/) [prettier](https://prettier.io/) [editorconfig](https://editorconfig.org/) 
+### [eslint](https://eslint.org/) [stylelint](https://stylelint.io/) [prettier](https://prettier.io/) [editorconfig](https://editorconfig.org/) 
 
