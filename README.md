@@ -26,7 +26,9 @@ Includes:
 
 ## Setup 🏖️
 
-simply clone the repo and finally have fun.
+simply follow the commands and finally have fun.
+
+clone the repo
 
 ```sh 
 git clone https://github.com/calgns/format-config
@@ -34,9 +36,19 @@ cd ./format-config
 ```
 
 basically move the files into _YourDir_ and delete this directory.
-_OBS: change YourDir so you actually put a dir that you are working on and not the exemple one._
+_OBS: change YourDir so you actually put a dir that you are working on._
 ```sh 
 mv .prettierrc.js .eslintrc.js .editorconfig .stylelintrc.json ../?YourDir?
+```
+
+ if you're using a project that has jsx and tsx mixed or an old project that is going to use ts
+```sh
+mv .eslintrc.json 
+rm ~/?YourDir?/.eslintrc.js
+```
+
+remove this dir while inside of it
+```sh
 rm -fr ../format-config
 ```
 
