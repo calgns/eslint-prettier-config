@@ -27,7 +27,6 @@ cd ./format-config
 basically move the files into _YourDir_ and delete this directory.
 _OBS: change YourDir so you actually put a dir that you are working on and not the exemple one._
 ```sh 
-cd format-config
 mv .prettierrc.js .eslintrc.js .editorconfig ../?YourDir?
 rm -fr ../format-config
 ```
