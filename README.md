@@ -94,4 +94,3 @@ if you want it to work correctly then you should download each one extension in 
 
 #### [eslint](https://eslint.org/) [stylelint](https://stylelint.io/) [prettier](https://prettier.io/) [editorconfig](https://editorconfig.org/) 
 
-**BTW i use errorlens, github theme, tmux and OMZ(zsh)**
