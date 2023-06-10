@@ -27,7 +27,7 @@ cd ./format-config
 basically move the files into _YourDir_ and delete this directory.
 _OBS: change YourDir so you actually put a dir that you are working on and not the exemple one._
 ```sh 
-mv .prettierrc.js .eslintrc.js .editorconfig ../?YourDir?
+mv .prettierrc.js .eslintrc.js .editorconfig .stylelintrc.json ../?YourDir?
 rm -fr ../format-config
 ```
 
@@ -36,7 +36,7 @@ now in your dir run
 # if you have pnpm good
 pnpm i eslint@latest prettier@latest stylelint@latest -D
 
-# if don't you should, cause it's like npm but with some goods
+# if don't, you should, cause it's like npm but with some goods
 npm i eslint@latest prettier@latest stylelint@latest -D
 
 ```
@@ -50,8 +50,8 @@ npm i eslint@latest prettier@latest stylelint@latest -D
 ### third exemple simple one in css file
 ![third gif exemple vscode css file](./assets/md-exemple3.gif)
 
-### commands, on terminal
-if in your settings you have chosen to format on save then, there is no need to do that, and if have errolens installed you will rarely see the terminal.
+## commands on terminal
+if in your settings you have chosen to format on save and if have errolens installed you will rarely see the terminal.
 
 inside the root of the project
 
@@ -66,7 +66,7 @@ npx eslint src/**/*.jsx
 # this will normally output what it should be written
 npx prettier src/app/layout.js 
 
-# check the file so you can see if it's pretty confirming that it's
+# check the file so you can see if it's pretty 
 npx prettier -c src/app/layout.js 
 
 # check all the files
@@ -92,5 +92,6 @@ npx stylelint src/**/*.css
 ## Don't forget
 if you want it to work correctly then you should download each one extension in vscode and always explore the docs.
 
+#### [eslint](https://eslint.org/) [stylelint](https://stylelint.io/) [prettier](https://prettier.io/) [editorconfig](https://editorconfig.org/) 
 
-**BTW i use errorlens and github theme**
+**BTW i use errorlens, github theme, tmux and OMZ(zsh)**
