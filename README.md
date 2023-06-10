@@ -8,7 +8,7 @@ quick summary:
 
 all of this so it will be almost no common errors.
 
-if you don't undestand what each one of the format fils does, then, go to the end of this file and click the link of the one you didn't undestand.
+if you don't undestand what each one of the format file does, then, go to the end of this file and click the link of the one you didn't undestand.
 
 ## Overview :owl:
 Here will be most common config files.
